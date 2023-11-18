@@ -1,0 +1,21 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* יציב את הפריטים בשורה אחת ליד השנייה */
+    list-style: none; /* מסתיר נקודות רשימה סטנדרטיות */
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 10px; /* מרווח בין הפריטים, ניתן להתאים לפי צורך */
+}
+li{
+   
+     color: black;
+  transition: color 0.3s ease; 
+}
+li:hover{
+    cursor:pointer;
+   
+    color: red;
+    
+}
